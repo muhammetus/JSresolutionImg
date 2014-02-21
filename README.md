@@ -4,8 +4,10 @@ JSresolutionImg
 According to the resolution show photos, jQuery Plugin
 
 #Examples
-for all images
+
 ```javascript
+
+//for all images
 $(document).ready(function(){
 			
 			$(document).resolutionImg({
@@ -16,8 +18,8 @@ $(document).ready(function(){
 			
 });
 
-for selectors
-```javascript
+//for selectors
+
 $(document).ready(function(){
 			
 			$('div#resize').resolutionImg({
@@ -28,3 +30,12 @@ $(document).ready(function(){
 			
 });
 
+#Html Code
+
+```html
+<div id="resize">
+<img src="images/600xistanbul.png" 980-src="images/600xistanbul.png" 1024-src="images/900xistanbul.png" 1980-src="images/1100xistanbul.png">
+	</div>
+<div id="not_resize">
+<img src="images/600xistanbul.png" 980-src="images/600xistanbul.png" 1024-src="images/900xistanbul.png" 1980-src="images/1100xistanbul.png">
+</div>
