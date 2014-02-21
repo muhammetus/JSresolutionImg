@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 //for selectors
 
-$(document).ready(function(){
+$('div#resize').ready(function(){
 			
 			$('div#resize').resolutionImg({
 									"980" : '980-src',
