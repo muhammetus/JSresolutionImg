@@ -29,6 +29,7 @@ $(document).ready(function(){
 									 });
 			
 });
+```
 
 #Html Code
 
@@ -39,3 +40,4 @@ $(document).ready(function(){
 <div id="not_resize">
 <img src="images/600xistanbul.png" 980-src="images/600xistanbul.png" 1024-src="images/900xistanbul.png" 1980-src="images/1100xistanbul.png">
 </div>
+```
