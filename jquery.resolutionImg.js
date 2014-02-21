@@ -1,3 +1,9 @@
+/* 
+Plugin name: resolutionImg
+Author: Muhammet US
+muhammetuss@gmail.com
+
+*/
 (function ( $ ) {
     $.fn.resolutionImg = function(options) {
          
