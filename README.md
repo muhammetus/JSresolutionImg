@@ -1,4 +1,4 @@
-JSresolutionImg
+JS resolution image
 ===============
 
 According to the resolution show photos, jQuery Plugin
