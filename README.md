@@ -7,7 +7,7 @@ According to the resolution show photos, jQuery Plugin
 
 ```javascript
 
-//for all images
+//for all (img[options-attributes]) images 
 
 $(document).resolutionImg({
 			"980" : '980-src',
@@ -17,7 +17,7 @@ $(document).resolutionImg({
 			
 
 
-//for selectors
+//for selectors (img[options-attributes]) in all images
 $('div#resize').resolutionImg({
 			"980" : '980-src',
 			"1024" : '1024-src',
