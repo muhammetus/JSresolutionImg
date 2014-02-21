@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Image View Resize</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="jquery.resolutionImg.js"></script>
+	
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			
+			$('div#resize').resolutionImg({
+									"980" : '980-src',
+									"1024" : '1024-src',
+									"1980" : '1980-src'
+									 });
+			
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<div id="resize">
+<img src="images/600xistanbul.png" 980-src="images/600xistanbul.png" 1024-src="images/900xistanbul.png" 1980-src="images/1100xistanbul.png">
+	</div>
+<div id="not_resize">
+<img src="images/600xistanbul.png" 980-src="images/600xistanbul.png" 1024-src="images/900xistanbul.png" 1980-src="images/1100xistanbul.png">
+	</div>
+</body>
+</html>
