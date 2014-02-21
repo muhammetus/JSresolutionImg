@@ -18,7 +18,7 @@ $(document).resolutionImg({
 
 
 //for selectors
-	$('div#resize').resolutionImg({
+$('div#resize').resolutionImg({
 			"980" : '980-src',
 			"1024" : '1024-src',
 			"1980" : '1980-src'
